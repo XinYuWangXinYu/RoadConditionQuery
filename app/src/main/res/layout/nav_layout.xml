@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <fragment
+                android:id="@+id/choose_area_fragment"
+                android:name="com.xinyu.roadconditionquery.ChooseAreaFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"/>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <fragment
+                android:id="@+id/choose_date_fragment"
+                android:name="com.xinyu.roadconditionquery.ChooseDateFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"/>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="15dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/info_id_1_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:textColor="@color/colorWrite"
+            />
+        <TextView
+            android:id="@+id/forbiddeninfo_car_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorWrite"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/info_id_2_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:textColor="@color/colorWrite"
+            />
+        <TextView
+            android:id="@+id/forbiddeninfo_area_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorWrite"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/info_id_3_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:textColor="@color/colorWrite"
+            />
+        <TextView
+            android:id="@+id/forbiddeninfo_info_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorWrite"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
